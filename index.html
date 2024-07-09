@@ -24,14 +24,16 @@
             </div>
         </div>
     </form>
-    <div class="list w-[650px] mt-5 mx-auto bg-white rounded-lg p-5 flex justify-between gap-3">
+    <div class=" w-[650px] mt-5 mx-auto bg-white rounded-lg p-5 flex justify-between gap-3">
         <button class="bg-blue-450 p-3 hover:opacity-50 duration-300 rounded-lg w-[30%] ont-bold text-white">All (<span class="all-count">0</span>)</button>
         <button class="bg-blue-450 p-3 hover:opacity-50 duration-300 rounded-lg w-[30%] font-bold text-white">Complated (<span class="complated-count">0</span>)</button>
         <button class="bg-blue-450 p-3 hover:opacity-50 duration-300 rounded-lg w-[30%] font-bold text-white">Uncomplated (<span class="uncomplated-count">0</span>)</button>
     </div>
     <ul class="list w-[650px] mt-5 mx-auto bg-white rounded-lg p-5 flex flex-col gap-3">
-
     </ul>
+    <div class="wrapper fixed  bottom-0 top-[100%] duration-300 w-full backdrop-blur-md" id="wrapper">
+        <div class="duration-300 scale-0 modal absolute top-0 bottom-0 w-[450px] h-[250px] right-0 left-0 m-auto bg-green-300 rounded-lg shadow-lg"></div>
+    </div>
 
     <script src="./js/main.js"></script>
     <script src="https://cdn.tailwindcss.com"></script>
